@@ -2,7 +2,7 @@
     <h2 align="center">Serverless Web Differ</h2>
 </p>
 
-<p align="center">A serverless web browser which crawls websites and compares pages by schedule, with <a href="http://serverless.com/">Serverless</a>, <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> and <a href="https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md">Headless Chrome</a>!</p>
+<p align="center">A serverless web browser which crawls websites and compares pages by schedule, with <a href="http://serverless.com/">Serverless</a>, <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, <a href="https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md">Headless Chrome</a> and <a href="https://selenium-python.readthedocs.io/">Selenium</a>!</p>
 
 <p align="center">
     <b><a href="#what-it-can-do">What it can do</a></b>
