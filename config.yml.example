@@ -1,0 +1,38 @@
+# Define you AWS CloudWatch Event here.
+# You can check https://docs.aws.amazon.com/lambda/latest/dg/tutorial-scheduled-events-schedule-expressions.html
+# to find out what expressions are suported
+events:
+    - schedule: rate(2 hours)
+
+# SCKEY: You can get the key from http://sc.ftqq.com/3.version
+# This is for push notifications on Wechat
+server_chan:
+    SCKEY: XXXXXXXXXXXXXXXXXXXXXX
+
+# API_KEY: You can get you api key from https://app.sendgrid.com/settings/api_keys after you logged in.
+# to: receiver's email address
+sendgrid:
+    API_KEY: SG.XXXXXXXXXXXXXXXXXXXXXX
+    to: nihao@leishi.io
+
+# key: You can get the key from https://ifttt.com/maker_webhooks
+# event: some string you defined to distiguish different events
+ifttt:
+    event: SOME_EVENT
+    key: XXXXXXXXXXXXXXXXXXXXXX
+
+websites:
+    - Alienware m17:
+        url: https://item.jd.com/100004577231.html
+        xpath: //div[@class='summary-price-wrap']//span[@class='p-price']//span[2]
+        original: 19999.00
+
+    - Tenga 你懂的:
+        url: https://detail.tmall.com/item.htm?id=594550886639
+        xpath: //span[@class='tm-price']
+        original: 850.00
+
+    - chewy:
+        url: https://www.chewy.com/arm-hammer-litter-multi-cat-slide/dp/140856
+        xpath: //div[@id='pricing']//ul[@class='product-pricing']//li[@class='our-price']//p[@class='price']//span
+        original: $16.99

@@ -1,0 +1,29 @@
+service: selenium-lambda
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+package:
+  exclude:
+    - node_modules/**
+    - '!node_modules/node-fetch/**'
+    - package*.json
+    - .serverless/**
+    - serverless.yml
+  include:
+    - chromedriver/**
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: us-west-1
+  timeout: 900
+
+functions:
+  differ:
+    handler: handler.differ
+    events: ${file(./config.yml):events}

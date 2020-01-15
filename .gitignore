@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv
+env/
+venv/
+bulid/
+dist/
+eggs/
+lib/
+lib64/
+*.egg-info/
+*.egg
+.python-version
+
+
+# JS
+node_modules/
+.npm
+.serverless/
+
+# MISC
+.vscode/
+.idea/
+.git/
+.cache/
+
+# Key files
+config.yml
