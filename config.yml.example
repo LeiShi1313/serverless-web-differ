@@ -6,20 +6,20 @@ events:
 
 # SCKEY: You can get the key from http://sc.ftqq.com/3.version
 # This is for push notifications on Wechat
-server_chan:
-    SCKEY: XXXXXXXXXXXXXXXXXXXXXX
+# server_chan:
+#     SCKEY: XXXXXXXXXXXXXXXXXXXXXX
 
 # API_KEY: You can get you api key from https://app.sendgrid.com/settings/api_keys after you logged in.
 # to: receiver's email address
-sendgrid:
-    API_KEY: SG.XXXXXXXXXXXXXXXXXXXXXX
-    to: nihao@leishi.io
+# sendgrid:
+#     API_KEY: SG.XXXXXXXXXXXXXXXXXXXXXX
+#     to: nihao@leishi.io
 
 # key: You can get the key from https://ifttt.com/maker_webhooks
 # event: some string you defined to distiguish different events
-ifttt:
-    event: SOME_EVENT
-    key: XXXXXXXXXXXXXXXXXXXXXX
+# ifttt:
+#     event: SOME_EVENT
+#     key: XXXXXXXXXXXXXXXXXXXXXX
 
 websites:
     - Alienware m17:
@@ -31,8 +31,3 @@ websites:
         url: https://detail.tmall.com/item.htm?id=594550886639
         xpath: //span[@class='tm-price']
         original: 850.00
-
-    - chewy:
-        url: https://www.chewy.com/arm-hammer-litter-multi-cat-slide/dp/140856
-        xpath: //div[@id='pricing']//ul[@class='product-pricing']//li[@class='our-price']//p[@class='price']//span
-        original: $16.99
