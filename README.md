@@ -48,6 +48,7 @@ and :tada::tada::tada:
 
 ## TODO
 
+- [ ] Add Chinese ver. README.
 - [ ] For each `website`, deploy a lambda function instead of visiting all websites in one function.
 - [ ] Make `notify.py` another lambda function.
 - [ ] Add more ways to notify.
