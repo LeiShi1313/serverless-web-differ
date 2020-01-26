@@ -26,4 +26,7 @@ provider:
 functions:
   differ:
     handler: handler.differ
+    environment:
+      IFTTT_EVENT: ${env:IFTTT_EVENT}
+      IFTTT_KEY: ${env:IFTTT_KEY}
     events: ${file(./config.yml):events}
