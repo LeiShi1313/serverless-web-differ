@@ -11,12 +11,14 @@ events:
 
 # API_KEY: You can get you api key from https://app.sendgrid.com/settings/api_keys after you logged in.
 # to: receiver's email address
+# You can also use environment variable SENDGRID_API_KEY and SENDGRID_TO
 # sendgrid:
 #     API_KEY: SG.XXXXXXXXXXXXXXXXXXXXXX
 #     to: nihao@leishi.io
 
 # key: You can get the key from https://ifttt.com/maker_webhooks
 # event: some string you defined to distiguish different events
+# You can also use environment variable IFTTT_EVENT and IFTTT_KEY
 # ifttt:
 #     event: SOME_EVENT
 #     key: XXXXXXXXXXXXXXXXXXXXXX

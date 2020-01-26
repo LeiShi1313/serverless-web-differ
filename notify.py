@@ -1,3 +1,4 @@
+import os
 import yaml
 import requests
 import traceback
@@ -58,8 +59,12 @@ def notify(diffs):
     if config.get('server_chan', {}).get('SCKEY', None):
         server_chan_send(config['server_chan']['SCKEY'], title, diffs)
 
-    if config.get('ifttt', {}).get('key', None) and config['ifttt'].get('event', None):
+    if os.environ('IFTTT_EVENT') and os.environ('IFTTT_KEY'):
+        ifttt_send(os.environ('IFTTT_EVENT'), os.environ('IFTTT_KEY'), title, diffs)
+    elif config.get('ifttt', {}).get('key', None) and config['ifttt'].get('event', None):
         ifttt_send(config['ifttt']['event'], config['ifttt']['key'], title, diffs)
     
-    if config.get('sendgrid', {}).get('API_KEY', None) and config.get('sendgrid', {}).get('to', None):
+    if os.environ('SENDGRID_API_KEY') and os.environ('SENDGRID_TO'):
+        sendgrid_send(os.environ('SENDGRID_API_KEY'), os.environ('SENDGRID_TO'), title, diffs)
+    elif config.get('sendgrid', {}).get('API_KEY', None) and config.get('sendgrid', {}).get('to', None):
         sendgrid_send(config['sendgrid']['API_KEY'], config['sendgrid']['to'], title, diffs)

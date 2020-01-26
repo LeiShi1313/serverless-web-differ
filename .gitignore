@@ -27,4 +27,4 @@ node_modules/
 .cache/
 
 # Key files
-config.yml
+# config.yml
