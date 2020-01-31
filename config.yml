@@ -16,4 +16,8 @@ websites:
         url: https://www.zimmermannwear.com/us/catalog/product/view/id/526014/s/espionage-corded-lace-blouse-buff/category/6444/
         xpath: //div[@class='product-view__main-details']//span[@class='price__value price__value--special']//span[@class='price']
         original: $725
-
+        
+    - 搬瓦工:
+        url: https://bwh88.net/cart.php?a=add&pid=72
+        xpath: //div[@id='order-web20cart']//h1
+        original: Oops, there's a problem...
