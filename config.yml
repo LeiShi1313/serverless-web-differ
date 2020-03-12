@@ -21,3 +21,19 @@ websites:
         url: https://bwh88.net/cart.php?a=add&pid=72
         xpath: //div[@id='order-web20cart']//h1
         original: Oops, there's a problem...
+        
+    - Ring Fit Walmart:
+        url: https://www.walmart.com/ip/Nintendo-Switch-Ring-Fit-Adventure-Black/434503657
+        xpath: //div[@class='prod-ProductOffer-oosMsg prod-PaddingTop--xxs']//span
+        original: Out of stock
+        
+    - Ring Fit Target:
+        url: https://www.target.com/p/ring-fit-adventure-nintendo-switch/-/A-76593324
+        xpath: //div[@data-test='oosDeliveryOption']
+        original: Temporarily out of stock
+        
+    - Ring Fit Game Stop:
+        url: https://www.gamestop.com/video-games/switch/games/products/ring-fit-adventure/11097187.html
+        xpath: //div[@class='availability-msg']//div
+        original: This item is currently not available online
+
