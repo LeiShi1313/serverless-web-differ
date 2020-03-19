@@ -5,18 +5,7 @@ websites:
     - chewy:
         url: https://www.chewy.com/arm-hammer-litter-multi-cat-slide/dp/140856
         xpath: //div[@id='pricing']//ul[@class='product-pricing']//li[@class='our-price']//p[@class='price']//span
-        original: $16.94
-
-    - 复古裙子:
-        url: https://www.zimmermannwear.com/us/sale/sale-ready-to-wear/espionage-corded-lace-mini-buff.html
-        xpath: //div[@class='product-view__main-details']//span[@class='price__value price__value--special']//span[@class='price']
-        original: $1,170
-
-    - 复古上衣:
-        url: https://www.zimmermannwear.com/us/catalog/product/view/id/526014/s/espionage-corded-lace-blouse-buff/category/6444/
-        xpath: //div[@class='product-view__main-details']//span[@class='price__value price__value--special']//span[@class='price']
-        original: $725
-        
+        original: $16.94        
     - 搬瓦工:
         url: https://bwh88.net/cart.php?a=add&pid=72
         xpath: //div[@id='order-web20cart']//h1
