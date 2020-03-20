@@ -59,7 +59,7 @@ def notify(diffs):
     if config.get('server_chan', {}).get('SCKEY', None):
         server_chan_send(config['server_chan']['SCKEY'], title, diffs)
 
-    if os.environ.get('IFTTT_EVENT') and os.environ.get('IFTTT_KEY':
+    if os.environ.get('IFTTT_EVENT') and os.environ.get('IFTTT_KEY'):
         ifttt_send(os.environ.get('IFTTT_EVENT'), os.environ.get('IFTTT_KEY'), title, diffs)
     elif config.get('ifttt', {}).get('key') and config['ifttt'].get('event'):
         ifttt_send(config['ifttt']['event'], config['ifttt']['key'], title, diffs)
