@@ -52,6 +52,7 @@ def server_chan_send(sckey, title, diffs):
 def notify(diffs):
     if not len(diffs):
         return
+    print(diffs)
     with open('config.yml', 'r') as c:
         config = yaml.safe_load(c)
     title = config.get('message_title', "您检测的网页有动静啦")
