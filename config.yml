@@ -19,7 +19,7 @@ websites:
     - Ring Fit Target:
         url: https://www.target.com/p/ring-fit-adventure-nintendo-switch/-/A-76593324
         xpath: //div[@data-test='oosDeliveryOption']
-        original: Temporarily out of stock
+        original: Not available
         
     - Ring Fit Game Stop:
         url: https://www.gamestop.com/video-games/switch/games/products/ring-fit-adventure/11097187.html
