@@ -30,6 +30,9 @@ class Web:
         with open("{}.html".format(self._driver.title), 'w') as f:
             f.write(self._driver.page_source)
         return self
+    
+    def get_page_source(self):
+        return self._driver.page_source
 
     def find_element_by_id(self, id_):
         return self._driver.find_element_by_id(id_)
@@ -70,6 +73,9 @@ def differ(event, context):
                 current = None
             diff = WebDiff(title=k, url=v['url'], original=v.get('original', None), current=current)
             if diff.original != diff.current:
+                # Log page source to debug what's the difference.
+                print(diff)
+                print(web.get_page_source())
                 results.append(diff)
 
     if len(results):
