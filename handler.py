@@ -30,7 +30,7 @@ class Web:
         with open("{}.html".format(self._driver.title), 'w') as f:
             f.write(self._driver.page_source)
         return self
-    
+
     def get_page_source(self):
         return self._driver.page_source
 
@@ -66,7 +66,7 @@ def differ(event, context):
     for w in config['websites']:
         for k, v in w.items():
             try:
-                current = web.go_to(v['url']).find_element_by_xpath(v['xpath']).text
+                current = web.go_to(v['url']).find_element_by_xpath(v['xpath']).get_attribute('innerHTML')
             except Exception as e:
                 # TODO: handling element not found instead general exception
                 print(e)
@@ -74,11 +74,12 @@ def differ(event, context):
             diff = WebDiff(title=k, url=v['url'], original=v.get('original', None), current=current)
             if diff.original != diff.current:
                 # Log page source to debug what's the difference.
-                print(diff)
-                print(web.get_page_source())
                 results.append(diff)
 
     if len(results):
         notify(results)
 
     return {"results": [r._asdict() for r in results]}
+
+if __name__ == '__main__':
+    differ('', '')

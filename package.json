@@ -8,7 +8,8 @@
   },
   "author": "Lei Shi",
   "license": "ISC",
-  "dependencies": {
-    "serverless-python-requirements": "^5.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-python-requirements": "^5.1.0"
   }
 }
