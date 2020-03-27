@@ -25,4 +25,14 @@ websites:
         url: https://www.gamestop.com/video-games/switch/games/products/ring-fit-adventure/11097187.html
         xpath: //div[@class='availability-msg']//div
         original: THIS ITEM IS CURRENTLY NOT AVAILABLE ONLINE
+        
+    - MIXED-MATERIAL WRAP DRESS:
+        url: https://www.toryburch.com/mixed-material-wrap-dress/57281.html?color=001&size=XXS
+        xpath: //div[@data-id='ProductInformation']//div[@data-id='PriceContainer']//span
+        original: $598
+        
+    - Mixed Material Wrap Dress:
+        url: https://www.saksfifthavenue.com/tory-burch-mixed-material-wrap-dress/product/0400011323740?R=192485307559&P_name=Tory+Burch&Ntt=tory+burch&N=0+4294881840
+        xpath: //ul[@class='product-variant-attribute-values']//li//span
+        original: SMALL
 
