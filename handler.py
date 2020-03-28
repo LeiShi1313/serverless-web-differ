@@ -66,7 +66,7 @@ def differ(event, context):
     for w in config['websites']:
         for k, v in w.items():
             try:
-                current = web.go_to(v['url']).find_element_by_xpath(v['xpath']).get_attribute('innerHTML')
+                current = web.go_to(v['url']).find_element_by_xpath(v['xpath']).get_attribute('innerHTML').strip().lower()
             except Exception as e:
                 # TODO: handling element not found instead general exception
                 print(e)
