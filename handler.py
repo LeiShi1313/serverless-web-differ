@@ -66,13 +66,13 @@ def differ(event, context):
     for w in config['websites']:
         for k, v in w.items():
             try:
-                current = web.go_to(v['url']).find_element_by_xpath(v['xpath']).get_attribute('innerHTML').strip().lower()
+                current = web.go_to(v['url']).find_element_by_xpath(v['xpath']).get_attribute('innerHTML').strip()
             except Exception as e:
                 # TODO: handling element not found instead general exception
                 print(e)
                 current = None
             diff = WebDiff(title=k, url=v['url'], original=v.get('original', None), current=current)
-            if diff.original != diff.current:
+            if diff.original.lower() != diff.current.lower():
                 # Log page source to debug what's the difference.
                 results.append(diff)
 
