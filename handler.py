@@ -72,7 +72,7 @@ def differ(event, context):
                 print(e)
                 current = None
             diff = WebDiff(title=k, url=v['url'], original=v.get('original', None), current=current)
-            if diff.original.lower() != diff.current.lower():
+            if diff.current is None or diff.original.lower() != diff.current.lower():
                 # Log page source to debug what's the difference.
                 results.append(diff)
 
