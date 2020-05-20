@@ -30,6 +30,6 @@ websites:
     - JD test:
         url: https://item.jd.hk/3851090.html
         xpath: //*[@id="summary-wrap"]/div/div[1]/div[2]/span/span[2]
-        original: 140.00
+        original: "140.00"
 
 
