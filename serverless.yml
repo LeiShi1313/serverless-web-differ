@@ -27,6 +27,6 @@ functions:
   differ:
     handler: handler.differ
     environment:
-      IFTTT_EVENT: ${env:IFTTT_EVENT}
-      IFTTT_KEY: ${env:IFTTT_KEY}
+      PUSHBULLET_ACCESS_TOKEN: ${env:PUSHBULLET_ACCESS_TOKEN}
+      PUSHBULLET_DEVICE_IDEN: ${env:PUSHBULLET_DEVICE_IDEN}
     events: ${file(./config.yml):events}
