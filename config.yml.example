@@ -23,6 +23,13 @@ events:
 #     event: SOME_EVENT
 #     key: XXXXXXXXXXXXXXXXXXXXXX
 
+# access_token: Access token get from https://www.pushbullet.com/#settings/account
+# device_iden: The device identification you want send notification to.
+# TODO: make device_iden optional
+# pushbullet:
+#     access_token: o.XXXXXXXXXXX
+#     device_iden: XXXXXXXXXXXXXX
+
 websites:
     - Alienware m17:
         url: https://item.jd.com/100004577231.html

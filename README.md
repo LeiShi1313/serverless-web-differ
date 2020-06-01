@@ -35,7 +35,7 @@
 There are couple of things you need to configure before actually make the function running in the cloud. First you need to create a file called `config.yml` and copy/paste everything from `config.yml.example`. Inside the `config.yml`:
 
 - `events`: This is the place you can define what is the frequency the function runs, you can read more from [here](https://serverless.com/framework/docs/providers/aws/events/schedule/). But most of the time, you want one entry like `- schedule: rate(1 hour)` or `- schedule: cron(0 * * * ? *)`, which both means run the function every hour.
-- `server_chan`/`sendgrid`/`ifttt`: There are the pre-defined ways to notify you if something has changed on the websites you interested. You can read the comments to find out how to get the security keys.
+- `server_chan`/`sendgrid`/`ifttt`/`pushbullet`: There are the pre-defined ways to notify you if something has changed on the websites you interested. You can read the comments to find out how to get the security keys.
 - `websites`: This is the main configuration part. `websites` can have multiple entries, and each one represents a website you want to periodically check. `url` and `xpath` is easy to understand, if you don't know how to get the xpath, try search `xpath [THE BROWSER YOU ARE USING]`, you should be able to find a lot of informations. For `original`, actually it can be absent if you are expecting a web element will appear, otherwise the function will compare the EXACT text from `original` and the web element of the web page by `xpath`.
 
 ## Deploy
