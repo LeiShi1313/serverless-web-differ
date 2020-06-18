@@ -26,10 +26,3 @@ websites:
         url: https://www.toryburch.com/mixed-material-wrap-dress/57281.html?color=001&size=XXS
         xpath: //div[@data-id='ProductInformation']//div[@data-id='PriceContainer']//span
         original: $598
-        
-    - JD test:
-        url: https://item.jd.hk/3851090.html
-        xpath: //*[@id="summary-wrap"]/div/div[1]/div[2]/span/span[2]
-        original: "140.00"
-
-
