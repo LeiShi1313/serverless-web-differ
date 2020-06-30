@@ -1,8 +1,7 @@
-service: selenium-lambda
+service: serverless-web-differ
 
 plugins:
   - serverless-python-requirements
-
 custom:
   pythonRequirements:
     dockerizePip: non-linux
