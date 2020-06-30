@@ -1,5 +1,11 @@
 <p align="center">
-    <h2 align="center">Serverless Web Differ</h2>
+    <h2 align="center">Serverless Web Differ </h2>
+</p>
+
+<p align="center">
+    <h3 align="center">
+        <a href="https://github.com/LeiShi1313/serverless-web-differ/blob/master/README_CN.md">中文文档</a>
+    </h3>
 </p>
 
 <p align="center">A serverless web browser which crawls websites and compares pages by schedule, with <a href="http://serverless.com/">Serverless</a>, <a href="https://aws.amazon.com/lambda/">AWS Lambda</a>, <a href="https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md">Headless Chrome</a> and <a href="https://selenium-python.readthedocs.io/">Selenium</a>!</p>
