@@ -7,20 +7,20 @@ websites:
         xpath: //div[@id='order-web20cart']//h1
         original: Oops, there's a problem...
         
-    - Ring Fit Walmart:
-        url: https://www.walmart.com/ip/Nintendo-Switch-Ring-Fit-Adventure-Black/434503657
-        xpath: //div[@class='prod-ProductOffer-oosMsg prod-PaddingTop--xxs']//span
-        original: Out of stock
+    - Canon EF 50mm f/1.4 USM Lens:
+        url: https://www.bhphotovideo.com/c/product/12140-USA/Canon_2515A003_50mm_f_1_4_USM_Autofocus.html
+        xpath: //div[@data-selenium='pricingPrice']
+        original: $349.00
         
-    - Ring Fit Target:
-        url: https://www.target.com/p/ring-fit-adventure-nintendo-switch/-/A-76593324
-        xpath: //div[@data-test='nonBuyableShippingMessage']
-        original: Temporarily out of stock
-        
-    - Ring Fit Game Stop:
-        url: https://www.gamestop.com/video-games/switch/games/products/ring-fit-adventure/11097187.html
-        xpath: //div[@class='availability-msg']//div
-        original: THIS ITEM IS CURRENTLY NOT AVAILABLE ONLINE
+    - Sigma 35mm f/1.4 DG HSM Art Lens for Canon EF:
+        url: https://www.bhphotovideo.com/c/product/898831-REG/Sigma_340_101_35mm_f_1_4_DG_HSM.html
+        xpath: //div[@data-selenium='pricingPrice']
+        original: $699.00
+    
+    - Canon EF 16-35mm f/2.8L III USM Lens:
+        url: https://www.bhphotovideo.com/c/product/1274708-REG/canon_ef_16_35mm_f_2_8l_iii.html
+        xpath: //div[@data-selenium='pricingPrice']
+        original: $1,899.00
         
     - MIXED-MATERIAL WRAP DRESS:
         url: https://www.toryburch.com/mixed-material-wrap-dress/57281.html?color=001&size=XXS
