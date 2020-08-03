@@ -20,7 +20,7 @@ websites:
     - Canon EF 16-35mm f/2.8L III USM Lens:
         url: https://www.bhphotovideo.com/c/product/1274708-REG/canon_ef_16_35mm_f_2_8l_iii.html
         xpath: //div[@data-selenium='pricingPrice']
-        original: $1,899.00
+        original: $1,999.00
         
     - MIXED-MATERIAL WRAP DRESS:
         url: https://www.toryburch.com/mixed-material-wrap-dress/57281.html?color=001&size=XXS
