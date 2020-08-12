@@ -6,6 +6,10 @@ websites:
         url: https://bwh88.net/cart.php?a=add&pid=72
         xpath: //div[@id='order-web20cart']//h1
         original: Oops, there's a problem...
+    - 修罗云:
+        url: https://www.xiuluohost.com/product/zj-nat
+        xpath: //div[@class='pricing-tables-wrap']//a[@href='/dashboard/confirm/56']
+        original: 已售罄
         
     - Canon EF 50mm f/1.4 USM Lens:
         url: https://www.bhphotovideo.com/c/product/12140-USA/Canon_2515A003_50mm_f_1_4_USM_Autofocus.html
