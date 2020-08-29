@@ -13,7 +13,7 @@ websites:
     
     - AkkoCloud:
         url: https://www.akkocloud.com/cart.php?a=add&pid=13
-        xpath: //div[@clash='header-lined']//h1
+        xpath: //div[@class='header-lined']//h1
         original: 缺货
         
     - Canon EF 50mm f/1.4 USM Lens:
