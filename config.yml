@@ -31,3 +31,13 @@ websites:
         url: https://www.toryburch.com/mixed-material-wrap-dress/57281.html?color=001&size=XXS
         xpath: //div[@data-id='ProductInformation']//div[@data-id='PriceContainer']//span
         original: $598
+    
+    - Pleated Skirt 0:
+        url: https://www2.hm.com/en_us/productpage.0904201002.html
+        xpath: //li[@data-code='0904201002001']//span[2]
+        original: Notify me
+    
+    - Pleated Skirt 2:
+        url: https://www2.hm.com/en_us/productpage.0904201002.html
+        xpath: //li[@data-code='0904201002002']//span[2]
+        original: Notify me
