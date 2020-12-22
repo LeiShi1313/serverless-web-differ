@@ -11,11 +11,6 @@ websites:
         url: https://www.bhphotovideo.com/c/product/12140-USA/Canon_2515A003_50mm_f_1_4_USM_Autofocus.html
         xpath: //div[@data-selenium='pricingPrice']
         original: $399.00
-        
-    - Sigma 35mm f/1.4 DG HSM Art Lens for Canon EF:
-        url: https://www.bhphotovideo.com/c/product/898831-REG/Sigma_340_101_35mm_f_1_4_DG_HSM.html
-        xpath: //div[@data-selenium='pricingPrice']
-        original: $799.00
     
     - Canon EF 16-35mm f/2.8L III USM Lens:
         url: https://www.bhphotovideo.com/c/product/1274708-REG/canon_ef_16_35mm_f_2_8l_iii.html
