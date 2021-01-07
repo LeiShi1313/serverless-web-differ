@@ -25,4 +25,4 @@ websites:
     - French Laundry:
         url: https://www.exploretock.com/tfl/
         xpath: //h3[@class='MuiTypography-root OfferingsStatusMessage-heading jss5 jss42 jss21 MuiTypography-body1']
-        original: Reservations are unavailable
+        original: Reservations are unavailable<span class="OfferingsStatusMessage-headingMobileSentence">. </span>
