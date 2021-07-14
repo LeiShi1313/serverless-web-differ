@@ -6,18 +6,3 @@ websites:
         url: https://bwh88.net/cart.php?a=add&pid=72
         xpath: //div[@id='order-web20cart']//h1
         original: Oops, there's a problem...
-        
-    - Canon EF 50mm f/1.4 USM Lens:
-        url: https://www.bhphotovideo.com/c/product/12140-USA/Canon_2515A003_50mm_f_1_4_USM_Autofocus.html
-        xpath: //div[@data-selenium='pricingPrice']
-        original: $399.00
-    
-    - Canon EF 16-35mm f/2.8L III USM Lens:
-        url: https://www.bhphotovideo.com/c/product/1274708-REG/canon_ef_16_35mm_f_2_8l_iii.html
-        xpath: //div[@data-selenium='pricingPrice']
-        original: $2,199.00
-        
-    - MIXED-MATERIAL WRAP DRESS:
-        url: https://www.toryburch.com/mixed-material-wrap-dress/57281.html?color=001&size=XXS
-        xpath: //div[@data-id='ProductInformation']//div[@data-id='PriceContainer']//span
-        original: $598
