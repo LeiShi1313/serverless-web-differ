@@ -6,3 +6,29 @@ websites:
         url: https://bwh88.net/cart.php?a=add&pid=72
         xpath: //div[@id='order-web20cart']//h1
         original: Oops, there's a problem...
+    - Embroidered scarf jacket dark grey melange:
+        url: https://int.toteme-studio.com/products/embroidered-scarf-jacket-dark-grey-melange
+        xpath: /html/body/main/div[1]/div/div[3]/form/div/div[2]/div[1]/div/select/option[2]
+        original: 32 - Out of stock - Notify me
+              
+    - Signature wool cashmere coat black:
+        url: https://int.toteme-studio.com/products/signature-wool-cashmere-coat-black
+        xpath: /html/body/main/div[1]/div/div[3]/form/div/div[1]/div[1]/div/span/span
+        original: 900 EUR
+
+    - PRINTED OVERCOAT:
+        url: https://eu.lemaire.fr/collections/women-coats-and-jackets/products/printed-overcoat-lf668-multicolor-fw21
+        xpath: /html/body/div[3]/div[1]/div/div/div/div[1]/div[2]/div/div[1]/div[1]/span[1]/span/span
+        original: 1,450€
+
+    - SSENSE:
+        url: https://www.ssense.com/fr-fr/femmes/produit/lemaire/manteau-duffle-blanc-casse-en-laine/7520691
+        xpath: /html/body/div/div/div/div[1]/main/div/div/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div/h3
+        original: €950 EUR
+
+    - CILIAN COAT:
+        url: https://christianwijnants.com/products/cilian-5739-rust?variant=40780584452260
+        xpath: /html/body/div[2]/main/div[1]/div/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div[1]/span
+        original: € 945
+            
+            
