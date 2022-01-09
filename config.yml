@@ -16,19 +16,10 @@ websites:
         xpath: /html/body/main/div[1]/div/div[3]/form/div/div[1]/div[1]/div/span/span
         original: 900 EUR
 
-    - PRINTED OVERCOAT:
-        url: https://eu.lemaire.fr/collections/women-coats-and-jackets/products/printed-overcoat-lf668-multicolor-fw21
-        xpath: /html/body/div[3]/div[1]/div/div/div/div[1]/div[2]/div/div[1]/div[1]/span[1]/span/span
-        original: 1,450€
-
     - SSENSE:
         url: https://www.ssense.com/fr-fr/femmes/produit/lemaire/manteau-duffle-blanc-casse-en-laine/7520691
         xpath: /html/body/div/div/div/div[1]/main/div/div/div[1]/div/div[5]/div/div/div[1]/div[1]/div/div/h3
         original: €950 EUR
 
-    - CILIAN COAT:
-        url: https://christianwijnants.com/products/cilian-5739-rust?variant=40780584452260
-        xpath: /html/body/div[2]/main/div[1]/div/div[2]/div[1]/div[2]/div/div/div[1]/div[2]/div[1]/span
-        original: € 945
             
             
